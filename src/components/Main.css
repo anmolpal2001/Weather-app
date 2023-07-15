@@ -1,0 +1,525 @@
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
+ .outer {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  .now,.today-at,.days,.heading{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -1px;
+  }
+.header{
+    display: flex;
+    width: 100%;
+    margin: 20px 10px;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.app-name{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: white;
+    margin-top: 10px;
+}
+.name {
+  margin-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    padding-left: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    background-color: #2a292b;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    height: 30px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #454546;
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Oxygen", sans-serif;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 51px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .search-button:hover {
+    background-color: #c2cac26a;
+  }
+
+  .location {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8b4caf;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .icon {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .location-bt {
+    margin-left: 10px;
+  }
+  
+  .remaining-space {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 20px;
+  }
+  
+.row {
+    display: flex;
+  }
+  .lower-part{
+    display: flex;
+  }
+  
+  
+.div1 {
+    width: 22%;
+    padding: 20px;
+    background-color: #2a2a2f;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 340px;
+  }
+  
+  .forcast{
+    width: 20%;
+    padding: 20px;
+    background-color: #2a2a2f;
+    margin-left: 30px;
+    margin-top: -20px;
+    border-radius: 20px;
+    height: 235px;
+  }
+  .div2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #2a2a2f;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 20px;
+    }
+.today{
+    flex: 1;
+    padding: 20px;
+    width: 1010px;
+    background-color: #2a2a2f;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+      }
+      
+      .grid-item {
+        padding: 0px;
+        background-color: #f0f0f0;
+      }
+      .humidity {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+      }
+      .humid {
+        display: flex;
+        align-items: center;
+      }
+
+      
+      .humid span {
+        margin-right: 10px;
+      }
+      .humid p{
+        font-size: 50px;
+      }
+      .inner-div {
+        padding: 10px;
+        background-color: #fff;
+      }
+    .title {
+        float: left;
+        font-family: "Oxygen", sans-serif;
+        /* padding: 0 30px 0 0; */
+        margin-top: -20px;
+    }
+    .title h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .title span {
+        font-size: 15px;
+        font-weight: bold;
+        color: #eee;
+        /* margin-top: -10px; */
+        text-align: right;
+    }
+    .custom-line {
+        color: rgb(113, 112, 112);
+        background-color:rgb(113, 112, 112);
+        height: 2px;
+        border: none;
+        /* margin:  */
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      
+    .data1{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        margin-top: -5px;
+    }
+    .weather{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .WeatherTemperature {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        float: left;
+    }
+    .weather p{
+        font-size:20px;
+        color: white;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .weather-icon{
+        width: 50%;
+        /* margin-left: 60px; */
+    }
+    .weather-icon span{
+        margin-left: 10px;
+    }
+    .temperature {
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    .weather-icon{
+        margin-left: 10px ;
+    }
+    .unit {
+        font-size: 30px;
+        color: white;
+    }
+    .date-time {
+        color: #fff;
+        font-family: "Oxygen", sans-serif;
+      }
+      .dmy {
+        float: left;
+        text-align: left;
+      }
+      .current-time {
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+      .current-data{
+        margin-top: -5px;
+      }
+      .date{
+        display: inline-block;
+        margin-left: 5px;
+      }
+      
+      .heading{
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .detail-1{
+        font-weight: 700;
+        color:#E1DFE7;
+        width: 230px;
+        height: 100px;
+        background-color: #1A191C;
+        border-radius: 20px;
+        padding-bottom: 30px;
+      }
+      .para{
+        font-size: 16px;
+        color: #666669; 
+        margin-left: 20px;
+        /* padding-top: 5px; */
+      }
+      .humid-icon{
+        margin-left: 20px;
+      }
+      .humid-data{
+        font-size: 46px;
+        margin-top: -10px;
+        margin-left: 10px;
+        font-weight: 700;
+      }
+      .visible-data{
+        font-size: 46px;
+        margin-top: -10px;
+        margin-left: 10px;
+        font-weight: 600;
+      }
+      .visible-data span{
+        font-size: 26px;
+        margin-left: -5px;
+      }
+      .row-1{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .row-2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin: 20px 10px;
+      }
+      .detail-3{
+        width: 230px;
+        height: 100px;
+        background-color: #1A191C;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        color:#E1DFE7;
+      }
+      .sunrise-data{
+        font-size: 30px;
+        margin-top: -15px;
+        font-weight: 600;
+      }
+      .pressure span{
+        font-size: 25px;
+      }
+      .pressure{
+        font-size: 36px;
+        margin-top: -15px;
+        font-weight: 600;
+      }
+      .wind-data span{
+        font-size: 20px;
+      }
+      .feels-data sup{
+        font-size: 30px;
+        margin-top: 40px;
+      }
+      .wind-data{
+        font-size: 36px;
+        margin-top: -15px;
+        font-weight: 600;
+      }
+      .feels-data{
+        font-size: 40px;
+        margin-top: -15px;
+        font-weight: 600;
+        /* margin-left: 10px; */
+      }
+      .card{
+        width: 120px;
+        height: 120px;
+        background-color: #1A191C;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        color:#E1DFE7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .time{
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+      }
+      .card-icon{
+        margin-top: 10px;
+      }
+      .temp{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -10px;
+      }
+      .card-box{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .data-day{
+        display: flex;
+        flex-direction: row;
+        color:#E1DFE7;
+
+      }
+      .temp-data{
+        font-size: 20px;
+        margin-top: -5px;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+      .temp-data sup{
+        font-size: 16px;
+      }
+      .date-data{
+        margin-left: 20px;
+        font-weight: 600px;
+      }
+      .forcast-data{
+        display: flex;
+        flex-direction: column;
+        gap: 8px
+        ;
+      }
+
+      /* @media (max-width: 768px) {
+        Adjustments for smaller screens
+      
+        .header {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .search-container {
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px;
+        }
+      
+        .search-input {
+          width: 100%;
+          max-width: 300px;
+        }
+      
+        .location {
+          margin: 20px 0;
+        }
+      
+        .div1,
+        .forcast,
+        .div2,
+        .today {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      
+        .grid-container {
+          grid-template-columns: 1fr;
+        }
+      
+        .row-1,
+        .row-2 {
+          flex-direction: column;
+        }
+      }
+      
+      @media (max-width: 576px) {
+        Further adjustments for smaller screens
+      
+        .header {
+          margin: 20px;
+        }
+      
+        .app-name {
+          text-align: center;
+        }
+      } */
+
+      .outer-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #2a2a2f;
+        height: 600px;
+        width: 800px;
+        border-radius: 50px;
+        margin-top: 80px;
+      }
+      
+      .image {
+        margin-top: -50px;
+      }
+      
+      .detect {
+        margin-top: -30px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .text {
+        line-height: 1.5;
+        font-size: 25px;
+        font-weight: bold;
+        color: #666669;
+      }
+      
